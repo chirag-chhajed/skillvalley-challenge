@@ -1,0 +1,95 @@
+
+.custom-shape-divider-top-1665395271 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1665395271 svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 12.5rem;
+}
+
+.custom-shape-divider-top-1665395271 .shape-fill {
+    fill: #000080;
+}
+header{
+    height: 12.5rem;
+}
+h1{
+    text-transform: capitalize;
+    font-family: 'poppins',sans-serif;
+    z-index: 1;
+    padding: 1rem 0 0 2rem;
+    color: wheat;
+}
+main{
+    height: 525px;
+    display: grid;
+    place-content: center;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 25rem;
+    width: 37.5rem;
+    background-color: lightpink;
+    margin-inline: 1rem !important;
+    border-radius: 25px;
+}
+.card h2{
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.card .quote-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+.quote-container .quote{
+    font-size: 1.5rem;
+}
+.quote-container .author{
+    width: 20%;
+    margin-left: auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 3.5px 3.5px;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    color: black;
+}
+.author:hover{
+    box-shadow: none;
+}
+.btn-container{
+    padding-inline: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+@media screen and (max-width:615px) {
+    .card{
+       width: 400px; 
+       height: 450px;
+    }
+}
+@media screen and (max-width:420px) {
+    .card{
+        width: 350px;
+        height: 400px;
+    }
+}
